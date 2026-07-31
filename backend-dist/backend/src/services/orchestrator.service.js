@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.status = exports.step = exports.reset = exports.pause = exports.start = void 0;
+let state = { running: false, scenario: "NORMAL", tick: 0 };
+const start = () => state = { ...state, running: true };
+exports.start = start;
+const pause = () => state = { ...state, running: false };
+exports.pause = pause;
+const reset = () => state = { running: false, scenario: "NORMAL", tick: 0 };
+exports.reset = reset;
+const step = () => ({ ...(state = { ...state, tick: state.tick + 1 }) });
+exports.step = step;
+const status = () => state;
+exports.status = status;

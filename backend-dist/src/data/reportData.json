@@ -1,0 +1,5 @@
+[
+    { "month": "Jan", "rides": 120, "revenue": 85000 },
+    { "month": "Feb", "rides": 145, "revenue": 99000 },
+    { "month": "Mar", "rides": 172, "revenue": 121000 }
+]

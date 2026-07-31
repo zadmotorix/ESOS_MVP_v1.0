@@ -1,0 +1,4 @@
+[
+    { "id": 1, "title": "Peak Hour Driver Shortage", "impact": "Fleet", "options": ["Reassign Driver", "Increase Incentive", "Delay Ride"] },
+    { "id": 2, "title": "Customer Complaint", "impact": "CRM", "options": ["Call Customer", "Refund", "Escalate"] }
+]

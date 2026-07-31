@@ -1,0 +1,38 @@
+{
+    "NORMAL": {
+        "traffic": "NORMAL",
+        "surge": false,
+        "drivers": 100
+    },
+    "PEAK_HOUR": {
+        "traffic": "HEAVY",
+        "surge": true,
+        "drivers": 90
+    },
+    "RAINY_DAY": {
+        "traffic": "SLOW",
+        "surge": true,
+        "drivers": 85
+    },
+    "AIRPORT_RUSH": {
+        "traffic": "BUSY",
+        "surge": true,
+        "drivers": 70
+    },
+    "PET_EMERGENCY": {
+        "priority": "HIGH",
+        "surge": false
+    },
+    "DRIVER_SHORTAGE": {
+        "drivers": 40,
+        "surge": true
+    },
+    "FESTIVAL_SURGE": {
+        "traffic": "GRIDLOCK",
+        "surge": true
+    },
+    "VIP_CUSTOMER": {
+        "priority": "VIP",
+        "surge": false
+    }
+}

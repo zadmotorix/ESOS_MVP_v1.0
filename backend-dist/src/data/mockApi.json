@@ -1,0 +1,8 @@
+{
+    "kpis": { "customerSatisfaction": 96, "fleetUtilization": 84, "revenue": 154000, "safety": 99 },
+    "notifications": [
+        "New corporate client onboarded",
+        "Driver training scheduled",
+        "Fleet utilization exceeded 80%"
+    ]
+}

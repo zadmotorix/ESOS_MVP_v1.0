@@ -10,7 +10,7 @@
     "jsx":"react-jsx",
     "allowSyntheticDefaultImports":true,
     "lib":["ES2022","DOM"],
-    "outDir":"dist"
+    "outDir":"backend-dist"
   },
   "include":["backend/**/*.ts","prisma/**/*.ts","src/**/*.ts","src/**/*.tsx"]
 }

@@ -11,11 +11,13 @@ export class BookingController{
   };
 
   update=async(req:Request,res:Response)=>{
-    res.json(await repo.update(req.params.id,req.body));
+    const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+    res.json(await repo.update(id,req.body));
   };
 
   remove=async(req:Request,res:Response)=>{
-    await repo.delete(req.params.id);
+    const id = Array.isArray(req.params.id) ? req.params.id[0] : req.params.id;
+    await repo.delete(id);
     res.status(204).send();
   };
 }

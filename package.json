@@ -5,15 +5,25 @@
   "scripts": {
     "dev": "ts-node backend/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/backend/server.js",
     "test": "jest",
     "test:smoke": "jest tests/smoke.test.ts",
     "test:integration": "jest tests/integration.test.ts"
   },
   "dependencies": {
-    "express": "^4.19.0"
+    "@prisma/client": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.4",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^24.0.0",
     "typescript": "^5.0.0",
     "ts-node": "^10.0.0",
     "jest": "^29.0.0",

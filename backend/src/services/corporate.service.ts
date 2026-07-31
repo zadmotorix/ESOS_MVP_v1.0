@@ -1,0 +1,1 @@
+export const accounts=[{id:'C1',name:'Acme Corp',status:'ACTIVE'}]; export const all=()=>accounts;

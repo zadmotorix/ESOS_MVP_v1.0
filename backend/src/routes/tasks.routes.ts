@@ -1,0 +1,1 @@
+import {Router} from 'express';import {list} from '../services/taskManager.service';const r=Router();r.get('/',(_q,s)=>s.json(list()));export default r;

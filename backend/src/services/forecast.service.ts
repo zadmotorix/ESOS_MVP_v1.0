@@ -1,0 +1,1 @@
+export const demand=()=>({nextHour:128,nextDay:2140});

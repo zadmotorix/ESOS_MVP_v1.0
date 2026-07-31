@@ -1,0 +1,1 @@
+import {Router} from 'express';import {logs} from '../services/audit.service';const r=Router();r.get('/',(_q,s)=>s.json(logs()));export default r;

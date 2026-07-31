@@ -1,0 +1,1 @@
+import {Router} from 'express';import * as s from '../services/benchmark.service';const r=Router();r.get('/',(_q,res)=>res.json((s as any).score()));export default r;

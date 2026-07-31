@@ -1,0 +1,1 @@
+export default function StatBadge({label,value}:{label:string;value:string|number}){return <span style={{border:'1px solid #bbb',padding:'4px 8px',borderRadius:12,marginRight:8}}>{label}: {value}</span>}

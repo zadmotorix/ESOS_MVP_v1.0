@@ -1,0 +1,1 @@
+export const schedule=()=>[{vehicle:'V1',serviceDue:'7 days'}];

@@ -1,0 +1,1 @@
+import {Router} from 'express';import {reports} from '../services/reports.service';const r=Router();r.get('/',(_q,s)=>s.json(reports()));export default r;

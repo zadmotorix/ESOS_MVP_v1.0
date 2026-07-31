@@ -1,0 +1,1 @@
+export default function EmptyState({message}:{message:string}){return <div style={{padding:16,opacity:.7}}>{message}</div>}

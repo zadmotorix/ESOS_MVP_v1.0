@@ -1,0 +1,1 @@
+export default function KPICard({title,value}:{title:string;value:string|number}){return <div style={{border:'1px solid #ccc',padding:12,borderRadius:8}}><strong>{title}</strong><div>{value}</div></div>}

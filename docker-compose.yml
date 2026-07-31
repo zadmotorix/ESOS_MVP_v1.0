@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  esos:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: file:./esos.db
+
+    healthcheck:
+      test: ['CMD','sh','scripts/healthcheck.sh']

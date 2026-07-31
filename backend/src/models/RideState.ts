@@ -1,0 +1,7 @@
+export type RideState=
+|'CREATED'
+|'DISPATCHED'
+|'DRIVER_ARRIVED'
+|'IN_PROGRESS'
+|'COMPLETED'
+|'CANCELLED';

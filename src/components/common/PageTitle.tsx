@@ -1,0 +1,1 @@
+export default function PageTitle({title}:{title:string}){return <h2 style={{marginBottom:16}}>{title}</h2>}

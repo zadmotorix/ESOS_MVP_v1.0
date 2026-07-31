@@ -1,0 +1,1 @@
+export const score=()=>({industry:82,company:89});

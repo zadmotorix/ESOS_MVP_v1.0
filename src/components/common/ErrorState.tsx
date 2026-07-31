@@ -1,0 +1,1 @@
+export default function ErrorState(){return <div style={{padding:16,color:'crimson'}}>Unable to load data.</div>}

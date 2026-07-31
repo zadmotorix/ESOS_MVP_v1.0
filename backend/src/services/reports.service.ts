@@ -1,0 +1,1 @@
+export const reports=()=>({operations:'OK',finance:'SIMULATED',hr:'SIMULATED'});

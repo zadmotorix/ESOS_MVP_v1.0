@@ -1,0 +1,1 @@
+export const metrics={target:95,current:97.2}; export const get=()=>metrics;

@@ -1,0 +1,22 @@
+{
+  "name": "esos-mvp-v1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node backend/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest",
+    "test:smoke": "jest tests/smoke.test.ts",
+    "test:integration": "jest tests/integration.test.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}

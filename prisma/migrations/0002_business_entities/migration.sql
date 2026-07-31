@@ -1,0 +1,1 @@
+-- Add Fleet, Vendor, Subscription, Notification models

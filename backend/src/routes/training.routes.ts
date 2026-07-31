@@ -1,0 +1,1 @@
+import {Router} from 'express';import * as s from '../services/trainingSimulator.service';const r=Router();r.get('/',(_q,res)=>res.json((s as any).assess()));export default r;

@@ -1,0 +1,1 @@
+export const register=()=>[{id:1,risk:'Driver shortage',level:'HIGH'}];

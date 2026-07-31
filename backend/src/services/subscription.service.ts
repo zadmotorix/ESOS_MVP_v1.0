@@ -1,0 +1,1 @@
+export const plans=[{name:'Premium',price:899}]; export const all=()=>plans;

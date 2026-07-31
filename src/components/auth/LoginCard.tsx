@@ -1,0 +1,1 @@
+export default function LoginCard(){return <div style={{border:'1px solid #ccc',padding:16,borderRadius:8}}><h3>Login</h3><p>Authentication placeholder</p></div>}

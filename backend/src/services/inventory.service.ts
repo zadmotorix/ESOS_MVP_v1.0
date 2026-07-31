@@ -1,0 +1,1 @@
+export const stock=[{item:'Pet Carrier',qty:24}]; export const all=()=>stock;

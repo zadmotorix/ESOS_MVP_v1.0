@@ -1,0 +1,1 @@
+export const checks=()=>({score:98,pending:['Vehicle Inspection']});

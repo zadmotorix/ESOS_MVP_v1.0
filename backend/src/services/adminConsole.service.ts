@@ -1,0 +1,1 @@
+export const home=()=>({modules:['Operations','CRM','Analytics']});

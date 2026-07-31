@@ -1,0 +1,1 @@
+import {Router} from 'express';import {pnl} from '../services/finance.service';const r=Router();r.get('/',(_q,s)=>s.json(pnl()));export default r;

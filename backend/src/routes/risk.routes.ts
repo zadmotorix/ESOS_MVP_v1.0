@@ -1,0 +1,1 @@
+import {Router} from 'express';import {register} from '../services/risk.service';const r=Router();r.get('/',(_q,s)=>s.json(register()));export default r;

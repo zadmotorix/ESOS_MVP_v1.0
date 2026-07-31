@@ -1,0 +1,2 @@
+const vendors=[['Happy Paws Vet','Active'],['Pet Groom Hub','Pending']];
+export default function Vendors(){return <div><h2>Vendor Partnerships</h2><table><tbody>{vendors.map(v=><tr key={v[0]}><td>{v[0]}</td><td>{v[1]}</td></tr>)}</tbody></table></div>}

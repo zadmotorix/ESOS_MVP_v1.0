@@ -1,0 +1,1 @@
+export const pets=[{id:'P1',name:'Buddy',species:'Dog',vaccination:'Current'}]; export const all=()=>pets;

@@ -1,0 +1,1 @@
+export const simulate=(base=250)=>({base,surge:1.4,total:base*1.4});

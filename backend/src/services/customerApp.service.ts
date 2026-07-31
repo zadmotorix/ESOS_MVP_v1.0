@@ -1,0 +1,1 @@
+export const home=()=>({screen:'Customer Home',widgets:['Book Ride','Track Ride','Wallet']});

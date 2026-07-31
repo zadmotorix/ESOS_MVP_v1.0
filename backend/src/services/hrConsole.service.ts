@@ -1,0 +1,1 @@
+export const home=()=>({modules:['Attendance','Roster','Training']});

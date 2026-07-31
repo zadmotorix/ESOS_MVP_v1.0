@@ -1,0 +1,1 @@
+export const tasks=[{id:1,title:'Dispatch Review',status:'OPEN'}]; export const list=()=>tasks;

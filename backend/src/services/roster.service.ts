@@ -1,0 +1,1 @@
+export const shifts=[{driver:'D1',shift:'Morning'}]; export const all=()=>shifts;

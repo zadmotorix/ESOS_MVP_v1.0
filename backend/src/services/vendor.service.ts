@@ -1,0 +1,1 @@
+export const vendors=[{name:'Vet Partner',status:'ACTIVE'}]; export const all=()=>vendors;

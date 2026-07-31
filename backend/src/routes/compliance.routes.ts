@@ -1,0 +1,1 @@
+import {Router} from 'express';import {checks} from '../services/compliance.service';const r=Router();r.get('/',(_q,s)=>s.json(checks()));export default r;

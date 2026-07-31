@@ -1,0 +1,1 @@
+export const twin=()=>({city:'Simulation',vehicles:100,rides:325});

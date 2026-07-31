@@ -1,0 +1,1 @@
+export const docs=[{name:'SOP.pdf',type:'SOP'}]; export const all=()=>docs;

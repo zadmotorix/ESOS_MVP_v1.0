@@ -1,0 +1,1 @@
+export const simulate=()=>({decision:'Expand Fleet',impact:'Positive'});

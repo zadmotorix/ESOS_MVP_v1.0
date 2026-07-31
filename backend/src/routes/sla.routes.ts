@@ -1,0 +1,1 @@
+import {Router} from 'express';import {get} from '../services/sla.service';const r=Router();r.get('/',(_q,s)=>s.json(get()));export default r;

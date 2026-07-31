@@ -1,0 +1,1 @@
+import {Router} from 'express';import * as s from '../services/digitalTwin.service';const r=Router();r.get('/',(_q,res)=>res.json((s as any).twin()));export default r;

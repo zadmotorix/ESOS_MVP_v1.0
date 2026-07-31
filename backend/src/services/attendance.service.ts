@@ -1,0 +1,1 @@
+export const attendance=[{employee:'E1',present:true}]; export const all=()=>attendance;

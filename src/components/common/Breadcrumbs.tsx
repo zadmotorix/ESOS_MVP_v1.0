@@ -1,0 +1,1 @@
+export default function Breadcrumbs({items}:{items:string[]}){return <nav>{items.join(' / ')}</nav>}

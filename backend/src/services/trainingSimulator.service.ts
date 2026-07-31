@@ -1,0 +1,1 @@
+export const assess=()=>({scenario:'Peak Hour',score:88,status:'PASS'});

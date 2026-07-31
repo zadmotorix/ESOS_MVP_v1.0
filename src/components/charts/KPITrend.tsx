@@ -1,0 +1,1 @@
+export default function KPITrend(){return <div style={{border:'1px solid #ccc',padding:12}}>Interactive Recharts component placeholder</div>;}

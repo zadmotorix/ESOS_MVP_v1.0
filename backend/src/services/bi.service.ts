@@ -1,0 +1,1 @@
+export const dashboard=()=>({growth:12.4,retention:91});

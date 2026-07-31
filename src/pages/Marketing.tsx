@@ -1,0 +1,2 @@
+const campaigns=['Referral Program','Pet Clinic Partnership','Social Media Ads'];
+export default function Marketing(){return <div><h2>Marketing</h2><ul>{campaigns.map(c=><li key={c}>{c}</li>)}</ul></div>}

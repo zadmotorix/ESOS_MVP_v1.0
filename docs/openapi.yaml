@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: ESOS MVP API
+  version: 1.0.0
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200': {description: OK}
+  /orchestrator/status:
+    get:
+      summary: Simulator status
+      responses:
+        '200': {description: Current state}
+  /orchestrator/start:
+    post:
+      summary: Start simulator
+      responses:
+        '200': {description: Started}

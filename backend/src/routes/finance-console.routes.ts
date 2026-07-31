@@ -1,0 +1,1 @@
+import {Router} from 'express';import * as s from '../services/financeConsole.service';const r=Router();r.get('/',(_q,res)=>res.json((s as any).home()));export default r;
